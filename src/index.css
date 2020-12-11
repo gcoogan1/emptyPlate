@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: "Proxima-Soft", sans-serif;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+:root {
+  --white-color: #ffffff;
+  --grey-color: #98a4bf;
+  --lightGrey-color: #dddddd;
+  --darkGrey-color: #8a8382;
+  --yellow-color: #ffc400;
+  --black-color: #3d3130;
+  --red-color: #bc3829;
+  --darkRed-color: #a93224;
+  --orange-color: #ff9a27;
+  --lightOrange-color: #ffebd3;
+  --green-color: #0ebc3d;
+  --lightGreen-color: #c5e9d1;
+}
+
+

@@ -1,0 +1,7 @@
+.error-text{
+    font-family: "Proxima-Soft", sans-serif;
+    color: var(--r-color);
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}

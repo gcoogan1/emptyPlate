@@ -1,0 +1,20 @@
+.background {
+  background-color: var(--grey-color);
+}
+
+.logo-wrapper {
+  margin-top: 20px;
+}
+
+.title-wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.title {
+  letter-spacing: 0px;
+  color: var(--yellow-color);
+  opacity: 1;
+  font-size: 26px;
+}

@@ -1,0 +1,157 @@
+/*Landing*/
+.landing {
+  padding: 35px;
+}
+
+.landing-content {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-btns {
+  width: 302px;
+  height: 174px;
+}
+
+.landing-btns-p {
+  margin-bottom: -5px;
+  font-size: 16px;
+  color: var(--white-color);
+}
+
+/*Signup/Login/Form*/
+.form-containter {
+  padding: 30px;
+}
+
+.form-content {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  font-size: 16px;
+}
+
+.form-header {
+  width: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*margin-top: 60px;*/
+}
+
+.form-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  color: var(--white-color);
+}
+
+.hr {
+  width: 40px;
+  height: 6px;
+  border-radius: 100px;
+  border: 1px solid var(--red-color);
+  background-color: var(--red-color);
+}
+
+.form-label {
+  font-weight: 400;
+}
+/*form-label ...&*/
+.light {
+  color: #8a8382;
+}
+
+.form-other-option {
+  width: 302px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.form-navlink {
+  color: var(--white-color);
+}
+
+.form-navlink:hover {
+  color: var(--red-color);
+}
+
+.form-or {
+  opacity: 0.5;
+  padding: 18px 0px 20px 0px;
+}
+
+.form-forgot {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+/*Forgot*/
+
+.forgot-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.forgot-arrow {
+  width: 31px;
+  position: absolute;
+  margin: 60px 15%;
+}
+
+.forgot-content {
+  width: 302px;
+  color: var(--black-color);
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forgot-content h1 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.forgot-content p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.centerBtn {
+  text-align: center;
+}
+
+/*SELECT SPECIAL*/
+.avatar-select {
+  width: 302px;
+  height: 56px;
+  margin-bottom: 20px;
+  box-shadow: none;
+  border: none;
+}
+
+/*NOTE: Classes come from react-selct; cane be used bc classNamePrefix is set*/
+.react-select__control {
+  width: 302px;
+  height: 56px;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.react-select__placeholder {
+  color: var(--black-color);
+  font-size: 16px;
+  text-indent: 20px;
+  opacity: 0.2;
+}
