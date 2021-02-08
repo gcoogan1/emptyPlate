@@ -37,7 +37,7 @@ function ResetPassword({
         await updatePassword(values);
         setSubmitting(false);
         resetForm();
-        setTimeout(() => (cleanUp(), close()), 3000);
+        setTimeout(() => (cleanUp() && close()), 3000);
       }}
     >
       {({ isSubmitting, isValid }) => (

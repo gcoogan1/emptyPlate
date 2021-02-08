@@ -12,9 +12,9 @@ import MealItem from "../MealItem";
 import Left from "../../../assets/Path 3.svg";
 import RedBtn from "../../../shared/components/Buttons/RedBtn";
 import BackgroundColor from "../../../shared/components/BackgroundColor/BackgroundColor";
-import Loader from '../../../shared/components/Loader/Loader';
 
-//TODO: PUT LIMIT OF MEAL NAME
+
+
 
 function Lunch({ meals, userId }) {
   const history = useHistory();
@@ -24,7 +24,7 @@ function Lunch({ meals, userId }) {
   }, []);
    //If there are no meals or user
    if (!meals) {
-    content = <Loader/>;
+    content = <h4>Loading</h4>;
   } else if (!meals[userId] || !meals[userId].meals) {
     content = <h3 className="click-to-add">Click to add meals!</h3>;
   } else if (meals[userId].meals.length === 0) {

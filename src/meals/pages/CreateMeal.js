@@ -37,8 +37,7 @@ function CreateMeal({ cleanMeals, loading, error, addMeal, success }) {
           await addMeal(values);
           setSubmitting(false);
           resetForm();
-          setTimeout(() => (cleanMeals(), history.goBack()), 3000);
-          
+          setTimeout(() => (cleanMeals() && history.goBack()), 3000);   
         }}
       >
         {({ isSubmitting, isValid }) => (

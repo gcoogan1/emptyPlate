@@ -5,14 +5,13 @@ import "firebase/auth";
 //FIREBASE CONFIG
 
 const config = {
-    apiKey: process.env.REACT_APP_API_KEY,
-    authDomain: "meal-cuisine.firebaseapp.com",
-    databaseURL: "https://meal-cuisine.firebaseio.com",
-    projectId: "meal-cuisine",
-    storageBucket: "meal-cuisine.appspot.com",
-    messagingSenderId: "980323071959",
-    appId: "1:980323071959:web:3a83cb97f4cd02f9e8bd92",
-    measurementId: "G-N7PT3Y74HS"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "noemptyplate.firebaseapp.com",
+  projectId: "noemptyplate",
+  storageBucket: "noemptyplate.appspot.com",
+  messagingSenderId: "45226729166",
+  appId: "1:45226729166:web:8d0139caf8ca7b15c9fa9f",
+  measurementId: "G-KLW1FM967T"
 };
 
 // Initialize Firebase
