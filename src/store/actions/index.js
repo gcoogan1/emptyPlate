@@ -1,5 +1,4 @@
 //ACTION EXPORTS
-
 //Auth actions
 export {
   signUp,
