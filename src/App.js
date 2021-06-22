@@ -17,8 +17,6 @@ import Favorite from "./meals/pages/Favorite";
 import ForgotPassword from "./users/pages/unauth/ForgotPassword";
 import Settings from "./users/pages/auth/Settings";
 
-//test 
-
 function App({ loggedIn }) {
   let routes;
   if (loggedIn) {
